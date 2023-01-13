@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ font-family: 'poppins',sans-serif;
+}
+html{
+ scroll-behavior: smooth;
+}
+.container{
+ width:90%;
+ margin:0 auto;
+ max-width: 100vw;
+}
+.overlay{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+/*
+home
+*/
+.wedding{
+ padding:8% 0;
+ background-color: #F6F6FF;
+}
+.img-hiro{
+ width: 100%;
+}
+.wedding-item{
+ width:50%;
+}
+.wedding-content{
+ width:40%;
+}
+.wedding-content h1{
+ letter-spacing: 10px;
+ font-weight: 500;
+}
+.wedding-content p{
+ margin-top: 5px;
+ margin-bottom: 30px;
+}
+.wedding-content a{
+ text-decoration: none;
+ color:white;
+ background-color: #5260FF;
+ padding: 13px 25px;
+ border-radius: 10px;
+}
+.wedding-content a:hover{
+ background-color: #0015F3;
+}
+/*
+merried
+*/
+.merried{
+ padding: 7% 0;
+}
+.merried-item h1{
+ text-align: center;
+ font-weight: 600;
+ font-size: 2rem;
+ margin-bottom: 10px;
+}
+.merried-content{
+ width:100%;
+}
+.merried-content p{
+ font-size: 12px;
+}
+.heading-p{
+ margin-top: 10px;
+}
+.hiro{
+ text-align: center;
+ margin: auto;
+ width:100%;
+}
+.hiro h1{
+ font-weight: 500;
+}
+.hiro p{
+ font-size: 12px;
+ margin: 15px 7px;
+}
+.images{
+ width:30%;
+ text-align: center;
+ border-radius: 40px;
+ margin-top: 40px;
+}
+/*
+cinta
+*/
+.cinta{
+ background-color: #F6F6FF;
+ padding: 7% 0;
+}
+.cinta-item h1{
+ font-weight: 600;
+}
+.cinta-item{
+ text-align: center;
+ margin: auto;
+}
+.cinta-content{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ margin-top: 20px;
+}
+.cinta-heading{
+ margin-left: 20px;
+ background-color: #5C6AFF;
+ color: #fff;
+ padding: 20px;
+ margin-top: 10px;
+ border-radius: 10px;
+ width: 50%;
+}
+/*
+day
+*/
+.day{
+ padding: 7% 0;
+}
+.day-item h1{
+ text-align: center;
+ font-weight: 600;
+}
+.day-content{
+ text-align: center;
+ margin-top: 40px;
+}
+.day-content p{
+ margin-bottom: 10px;
+}
+.day-content a{
+ text-decoration: none;
+ background-color: #7B85F2;
+ color:#fff;
+ padding:13px 25px;
+ display: inline-block;
+ margin:20px 0;
+ border-radius: 10px;
+ font-size: 1rem;
+}
+i{
+ margin-right: 10px;
+}
+.day-content h1{
+ margin: 20px 0;
+ font-weight: 500;
+}
+.day-akad ,.day-resepsi{
+ text-align: center;
+}
+.day-akad p, .day-resepsi p{
+ font-size: 22px;
+}
+.day-akad h1, .day-resepsi h1{
+ font-weight: 500;
+}
+.day-akad{
+ background-color: #7B85F2;
+ margin-top:20px;
+ color:#fff;
+ padding:20px;
+ width:60%;
+ margin:auto;
+ border-radius: 10px;
+}
+.day-resepsi{
+background-color: #7B85F2;
+ margin: 20px 0;
+ color:#fff;
+ padding:20px;
+ width:60%;
+ margin:auto;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+.day-end{
+ margin-top: 20px;
+ text-align: center;
+}
+.day-content p , .day-end p{
+ font-size: 12px;
+}
+/* 
+gallery
+*/
+.gallery{
+ padding:7% 0;
+ background-color: #F6F6FF;
+}
+.gallery-item ,.gallery-content{
+ text-align: center;
+}
+.gallery-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.img-jumbo{
+ width:60%;
+}
+.img-small{
+ width:20%;
+ margin: 5px;
+}
+.gallery-heading{
+ text-align: center;
+}
+.gallery-heading p{
+ font-size: 12px;
+ margin-top: 20px;
+}
+.img-small:hover{
+ opacity: 0.5;
+}
+.gallery-item{
+ margin-top: 40px;
+}
+/*
+penutup
+*/
+.penutup{
+ padding:7% 0;
+}
+.penutup-item{
+ text-align: center;
+}
+.penutup-item h2{
+ margin-top: 10px;
+}
+.penutup-item p{
+ margin:15px 0;
+ font-size: 12px;
+}
+.img-end{
+ width:30%;
+ border-radius: 10px;
+}
+/*
+footer
+*/
+.footer{
+ text-align: center;
+ background-color: #4E5BE5;
+ color:#fff;
+ padding:20px;
+}
+.footer span{
+ font-weight: bold;
+}
+/* 
+icons
+*/
+.home{
+ z-index: 9999;
+}
+.overlayy{
+ display: flex;
+ justify-content: center;
+ 
+}
+.icons{
+ position: fixed;
+ bottom:10;
+ width:50%;
+ height: 60px;
+ background-color: #5B69FF;
+ color:#fff;
+ text-align: center;
+ border-radius: 10px;
+ padding:10px;
+ z-index: 99999;
+}
+.icons a{
+ color:#fff;
+ margin: 15px;
+}
+.icons i{
+ font-size: 2rem;
+}
+
+
+/*
+responsive
+*/
+@media (max-width:576px){
+.overlay{
+ flex-direction: column;
+}
+.wedding-item{
+ width:100%;
+}
+.wedding-content{
+ width:100%;
+}
+.wedding-content h1{
+ letter-spacing: 10px;
+ font-size: 1.5rem;
+ font-weight: 500;
+}
+.wedding-content p{
+ margin-top: 5px;
+ margin-bottom: 30px;
+}
+.wedding-content a{
+ text-decoration: none;
+ color:white;
+ background-color: #7185B9;
+ padding: 10px 20px;
+ border-radius: 10px;
+}
+/*
+nav
+*/
+.icons{
+ position: fixed;
+ bottom:10;
+ width:70%;
+ height: 40px;
+ background-color: #5B69FF;
+ color:#fff;
+ text-align: center;
+ border-radius: 10px;
+ padding:10px;
+}
+.icons a{
+ color:#fff;
+ margin: 5px;
+}
+.icons i{
+ font-size: 1rem;
+}
+/*
+merried
+*/
+.merried-item h1{
+ text-align: center;
+ font-weight: 600;
+ font-size: 1.5rem;
+ margin-bottom: 10px;
+}
+.merried-content{
+ width:100%;
+}
+.merried-content p{
+ font-size: 14px;
+}
+.heading-p{
+ margin-top: 14px;
+}
+.hiro{
+ text-align: center;
+ margin: auto;
+ width:100%;
+}
+.hiro h1{
+ font-weight: 500;
+ font-size: 1.3rem;
+}
+.hiro p{
+ font-size: 14px;
+ margin: 15px 7px;
+}
+.images{
+ width:40%;
+ text-align: center;
+ border-radius: 40px;
+ margin-top: 40px;
+}
+/*
+cinta
+*/
+.cinta-item h1{
+ font-weight: 600;
+ font-size: 1.5rem;
+}
+.cinta-item h1{
+ font-weight: 600;
+}
+.cinta-content{
+ flex-direction: column;
+ width: 100%;
+ margin-top:40px;
+ 
+}
+.cinta-heading{
+ margin-left: 20px;
+ background-color: #5C6AFF;
+ color: #fff;
+ padding: 20px;
+ margin-top: 10px;
+ border-radius: 10px;
+ width: 100%;
+}
+/*
+day
+*/
+
+.day-item h1{
+ text-align: center;
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+
+.day-content a{
+ text-decoration: none;
+ background-color: #7B85F2;
+ color:#fff;
+ padding:13px 25px;
+ display: inline-block;
+ margin:20px 0;
+ border-radius: 10px;
+ font-size: 1rem;
+}
+i{
+ margin-right: 10px;
+}
+.day-content h1{
+ margin: 20px 0;
+ font-weight: 500;
+}
+.day-akad ,.day-resepsi{
+ text-align: center;
+}
+.day-akad p, .day-resepsi p{
+ font-size: 15px;
+}
+.day-akad h1, .day-resepsi h1{
+ font-weight: 500;
+ font-size: 1.4rem;
+}
+.day-akad{
+ background-color: #7B85F2;
+ margin-top:20px;
+ color:#fff;
+ padding:20px;
+ width:100%;
+ margin:auto;
+ border-radius: 10px;
+}
+.day-resepsi{
+ background-color: #7B85F2;
+ margin: 20px 0;
+ color:#fff;
+ padding:20px;
+ width:100%;
+ margin:auto;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+.day-end{
+ margin-top: 20px;
+ text-align: center;
+}
+.day-content p , .day-end p{
+ font-size: 15px;
+}
+/* 
+gallery
+*/
+.gallery-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.img-jumbo{
+ width:80%;
+}
+.img-small{
+ width:20%;
+ margin: 5px;
+}
+.gallery-heading p{
+ font-size: 15px;
+ margin-top: 20px;
+}
+.gallery-heading h1{
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+.img-small:hover{
+ opacity: 0.5;
+}
+.gallery-item{
+ margin-top: 40px;
+}
+/*
+penutup
+*/
+.penutup-item p{
+ font-size: 12px;
+}
+.penutup-item h2{
+ font-weight: 500;
+}
+}
+
+
+@media (max-width:776px){
+ .overlay{
+   flex-direction: column;
+}
+.wedding-item{
+ width:60%;
+}
+.wedding-content{
+ width:100%;
+}
+.wedding-content h1{
+ letter-spacing: 10px;
+ font-size: 1.5rem;
+ font-weight: 500;
+}
+.wedding-content p{
+ margin-top: 5px;
+ margin-bottom: 30px;
+}
+.wedding-content a{
+ text-decoration: none;
+ color:white;
+ background-color: #5260FF;
+ padding: 10px 20px;
+ border-radius: 10px;
+}
+/*
+nav
+*/
+.icons{
+ position: fixed;
+ bottom:10;
+ width:70%;
+ height: 40px;
+ background-color: #5B69FF;
+ color:#fff;
+ text-align: center;
+ border-radius: 10px;
+ padding:10px;
+}
+.icons a{
+color:#fff;
+margin: 5px;
+}
+.icons i{
+ font-size: 1.1rem;
+}
+/*
+merried
+*/
+.merried-item h1{
+ text-align: center;
+ font-weight: 600;
+ font-size: 1.5rem;
+ margin-bottom: 10px;
+}
+.merried-content{
+ width:100%;
+}
+.merried-content p{
+ font-size: 12px;
+}
+.heading-p{
+ margin-top: 12px;
+}
+.hiro{
+ text-align: center;
+ margin: auto;
+ width:100%;
+}
+.hiro h1{
+ font-weight: 500;
+ font-size: 1.3rem;
+}
+.hiro p{
+ font-size: 12px;
+ margin: 15px 7px;
+}
+.images{
+ width:40%;
+ text-align: center;
+ border-radius: 40px;
+ margin-top: 40px;
+}
+/*
+cinta
+*/
+.cinta-item h1{
+ font-weight: 600;
+ font-size: 1.5rem;
+}
+.cinta-item h1{
+ font-weight: 600;
+}
+
+.cinta-heading{
+ margin-left: 20px;
+ background-color: #5C6AFF;
+ color: #fff;
+ padding: 20px;
+ margin-top: 10px;
+ border-radius: 10px;
+ width: 100%;
+}
+/*
+day
+*/
+.day-item h1{
+ text-align: center;
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+.day-content a{
+ text-decoration: none;
+ background-color: #7B85F2;
+ color:#fff;
+ padding:13px 25px;
+ display: inline-block;
+ margin:20px 0;
+ border-radius: 10px;
+ font-size: 1rem;
+}
+i{
+ margin-right: 10px;
+}
+.day-content h1{
+ margin: 20px 0;
+ font-weight: 500;
+}
+.day-akad ,.day-resepsi{
+ text-align: center;
+}
+.day-akad p, .day-resepsi p{
+ font-size: 15px;
+}
+.day-akad h1, .day-resepsi h1{
+ font-weight: 500;
+ font-size: 1.4rem;
+}
+.day-akad{
+ background-color: #7B85F2;
+ margin-top:20px;
+ color:#fff;
+ padding:20px;
+ width:80%;
+ margin:auto;
+ border-radius: 10px;
+}
+.day-resepsi{
+background-color: #7B85F2;
+ margin: 20px 0;
+ color:#fff;
+ padding:20px;
+ width:80%;
+ margin:auto;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+.day-end{
+ margin-top: 20px;
+ text-align: center;
+}
+.day-content p , .day-end p{
+ font-size: 12px;
+}
+/* 
+gallery
+*/
+.gallery-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.img-jumbo{
+ width:60%;
+}
+.img-small{
+ width:20%;
+ margin: 5px;
+}
+.gallery-heading p{
+ font-size: 12px;
+ margin-top: 20px;
+}
+.gallery-heading h1{
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+.img-small:hover{
+ opacity: 0.5;
+}
+.gallery-item{
+ margin-top: 40px;
+}
+
+/*
+footer
+*/
+.footer{
+ text-align: center;
+ background-color: #4E5BE5;
+ color:#fff;
+ padding:10px;
+}
+.footer p{
+ font-size: 12px;
+}
+/*
+penutup
+*/
+.penutup-item p{
+ font-size: 12px;
+}
+.penutup-item h2{
+ font-weight: 500;
+}
+}
